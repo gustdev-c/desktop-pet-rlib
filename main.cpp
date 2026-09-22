@@ -3,6 +3,7 @@
 
 typedef struct Pet {
 	Texture sprite;
+	Vector2 velocity;
 } Pet;
 
 int main(void)
